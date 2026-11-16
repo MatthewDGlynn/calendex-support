@@ -20,10 +20,17 @@
   <main>
     <p><a href="index.html">← Calindex Support</a></p>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective July 24, 2026</strong></p>
-    <p>Calindex (formerly Calendex) is designed to work locally on your devices. It does not require an account and does not collect, sell, rent, or share personal information.</p>
+    <p><strong>Effective November 16, 2026</strong></p>
+    <p>Calindex (formerly Calendex) stores its working data on your devices and does not require a Calindex account. Connecting a Google account is optional. The developer does not operate a server that receives your calendar, reminder, or imported-note content, and does not sell or rent that content.</p>
     <h2>Calendar data</h2>
     <p>Calindex requests access to Apple Calendar so it can display upcoming events and add, edit, or delete events when you explicitly choose those actions. Calendar data is processed on your device and is not transmitted to the developer.</p>
+    <h2>Optional Google Calendar connection</h2>
+    <p>If you choose to sign in with Google, Calindex uses Google Sign-In and the Google Calendar API to read the calendars you subscribe to and events on calendars you choose to display. This can include event titles, dates, time zones, locations, notes, attendees, meeting links, and event identifiers. Your Google account identifier and email identify the connected account.</p>
+    <p>Calindex uses this information to display your agenda, provide the local features you choose, and identify matching copies of events already available through Apple Calendar. The connection is read-only: Calindex does not create, edit, or delete Google events, add an account in Apple Settings, or copy Google events into Apple Calendar.</p>
+    <p>Requests go directly from your device to Google. Google receives the authorization and Calendar API requests needed for this connection. No Google password is provided to Calindex. Google Sign-In stores its authorization session in Keychain. Calindex encrypts its downloaded Google calendar cache with a separate device-only Keychain key, excludes that cache from backup, and retains up to three downloaded date ranges for offline use. Minimal agenda snapshots may also be shared locally with Calindex widgets, Live Activities, or your paired Apple Watch.</p>
+    <p>Google processes sign-in information under its own policies. Its Sign-In SDK may collect user identifiers and IP addresses for authorization and fraud prevention. The SDK's privacy manifest also declares contact and identity information, coarse location, user and device identifiers, usage information, and other data for functionality and analytics. See <a href="https://developers.google.com/identity/sign-in/ios/app-privacy">Google's Sign-In data disclosure guidance</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+    <p>Disconnect Google in Calindex Settings to remove the downloaded Google cache and the app's saved sign-in session. Disconnecting does not delete events in Google or Apple Calendar. You can also revoke Calindex's Google access through your <a href="https://myaccount.google.com/connections">Google account connections</a>.</p>
+    <p>Calindex's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. Google calendar data is not used for advertising or to train generalized AI models.</p>
     <h2>Reminder data</h2>
     <p>Apple Reminders access is optional and requested separately. If you connect it, Calindex can display reminders and create, edit, schedule, complete, or delete them only in response to your actions. Reminder data is processed on your device and is not transmitted to the developer.</p>
     <h2>Imported notes and history</h2>
@@ -33,7 +40,7 @@
     <h2>External actions</h2>
     <p>When you choose Join, Directions, Call, Share, or Open in Calendar, Calindex passes the selected information to the relevant app or Apple system service. Calindex does not embed a mapping, geocoding, or meeting service.</p>
     <h2>Tracking and advertising</h2>
-    <p>Calindex does not use analytics, diagnostics reporting, advertising identifiers, cross-app tracking, or third-party advertising.</p>
+    <p>Calindex does not operate an analytics or diagnostics-reporting server and does not use advertising identifiers, cross-app tracking, or third-party advertising. If you enable Google sign-in, the Google SDK and services process information as described above.</p>
     <h2>Data retention and deletion</h2>
     <p>Calindex-managed settings and import history remain on your device until you remove them, delete history in the app, or uninstall the app. Events and reminders saved through Calindex are controlled through Apple Calendar, Apple Reminders, and your configured account providers.</p>
     <h2>Children</h2>
